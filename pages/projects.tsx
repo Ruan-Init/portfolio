@@ -124,13 +124,13 @@ const Projects: NextPage = () => {
             <p className="text-lg text-blue-400">Entre em contato:</p>
             <div className="flex justify-center space-x-8 flex-wrap">
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
-                <a href="mailto:seuemail@exemplo.com">ruan.espindola17@gmail.com</a>
+                <a href="mailto:ruan.espindola17@gmail.com">ruan.espindola17@gmail.com</a>
               </p>
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
-                <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">https://github.com/Ruan-Init</a>
+                <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">GitHub</a>
               </p>
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
-                <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">linkedin.com/in/Ruan-Carlos</a>
+                <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </p>
             </div>
             <p className="text-xs text-gray-500 mt-4">&copy; {new Date().getFullYear()} Ruan Carlos. Todos os direitos reservados.</p>

@@ -66,7 +66,7 @@ const Home: NextPage = () => {
           </nav>
         </header>
 
-        <main className="flex flex-col items-center justify-center flex-grow pt-20 px-4 sm:px-6 md:px-8 lg:px-12">
+        <main className="flex flex-col items-center justify-center flex-grow pt-28 px-4 sm:px-6 md:px-8 lg:px-12">
           <h1 className="text-5xl font-extrabold mb-16 text-center tracking-wide animate-glow">
             Bem-vindo ao meu portfólio
           </h1>
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
             {technologies.map((tech, index) => (
               <SwiperSlide
                 key={index}
-                className="flex flex-col items-center justify-center w-48 h-48 bg-gray-800 p-6 rounded-lg"
+                className="flex flex-col items-center justify-center h-60 bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
               >
                 <img src={tech.img} alt={tech.name} className="h-16 mb-4" />
                 <h2 className="text-xl font-bold text-blue-400">{tech.name}</h2>
@@ -97,18 +97,18 @@ const Home: NextPage = () => {
         <footer className="w-full bg-gray-900 py-6">
           <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-4">
             <p className="text-lg text-blue-400">Entre em contato:</p>
-            <div className="flex flex-col sm:flex-row justify-center space-x-0 sm:space-x-8 space-y-4 sm:space-y-0">
+            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="mailto:ruan.espindola17@gmail.com">ruan.espindola17@gmail.com</a>
               </p>
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">
-                  https://github.com/Ruan-Init
+                  GitHub
                 </a>
               </p>
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">
-                  linkedin.com/in/Ruan-Carlos
+                  LinkedIn
                 </a>
               </p>
             </div>

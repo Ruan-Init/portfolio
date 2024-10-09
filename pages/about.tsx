@@ -11,28 +11,29 @@ const About: NextPage = () => {
         <meta name="description" content="Bem-vindo ao meu portfólio pessoal. Conheça mais sobre meus projetos e habilidades." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-    
+
       <div className="min-h-screen flex flex-col bg-black text-white">
+        {/* Header */}
         <header className="w-full bg-gray-900 py-4 fixed top-0 left-0 z-10">
           <nav className="max-w-4xl mx-auto flex justify-center">
-            <ul className="flex space-x-8">
+            <ul className="flex space-x-4 sm:space-x-8">
               <li>
                 <Link href="/about" legacyBehavior>
-                  <a className="text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
+                  <a className="text-sm sm:text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
                     Sobre
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/projects" legacyBehavior>
-                  <a className="text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
+                  <a className="text-sm sm:text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
                     Projetos
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/contact" legacyBehavior>
-                  <a className="text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
+                  <a className="text-sm sm:text-lg text-blue-400 font-semibold hover:text-blue-500 transition duration-300 ease-in-out">
                     Contato
                   </a>
                 </Link>
@@ -41,11 +42,12 @@ const About: NextPage = () => {
           </nav>
         </header>
 
-        <main className="flex flex-col items-center justify-center flex-grow pt-24 p-4 sm:p-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6 text-center">
+        {/* Main */}
+        <main className="flex flex-col items-center justify-center flex-grow pt-24 px-4 sm:px-8">
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-white mb-6 text-center">
             Sobre Mim
           </h1>
-          <div className="max-w-3xl text-lg text-gray-300 text-center leading-relaxed space-y-4">
+          <div className="max-w-3xl text-base sm:text-lg text-gray-300 text-center leading-relaxed space-y-4">
             <p>
               Sou um desenvolvedor apaixonado por tecnologia e inovação. Ao longo
               dos anos, tive a oportunidade de trabalhar com diversas tecnologias,
@@ -71,24 +73,25 @@ const About: NextPage = () => {
           </div>
           <nav className="mt-8">
             <Link href="/" legacyBehavior>
-              <a className="inline-block text-white bg-blue-600 py-3 px-6 rounded-lg hover:bg-blue-700 shadow-lg transition duration-300">
+              <a className="inline-block text-white bg-blue-600 py-2 px-4 sm:py-3 sm:px-6 rounded-lg hover:bg-blue-700 shadow-lg transition duration-300">
                 Voltar para o Início
               </a>
             </Link>
           </nav>
         </main>
 
+        {/* Footer */}
         <footer className="w-full bg-gray-900 py-4">
           <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-4">
             <p className="text-lg text-blue-400">Entre em contato:</p>
             <div className="flex justify-center space-x-4 flex-wrap">
-              <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
+              <p className="text-xs sm:text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="mailto:ruan.espindola17@gmail.com">ruan.espindola17@gmail.com</a>
               </p>
-              <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
+              <p className="text-xs sm:text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">GitHub</a>
               </p>
-              <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
+              <p className="text-xs sm:text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </p>
             </div>
