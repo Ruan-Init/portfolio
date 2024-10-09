@@ -24,14 +24,12 @@ const Home: NextPage = () => {
 
   return (
     <>
-      {/* Cabeçalho de título e meta tags */}
       <Head>
         <title>Meu Portfólio</title>
         <meta name="description" content="Bem-vindo ao meu portfólio pessoal. Conheça mais sobre meus projetos e habilidades." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      {/* Background e estrutura */}
       <div
         className="min-h-screen flex flex-col bg-black text-white"
         style={{
@@ -40,7 +38,6 @@ const Home: NextPage = () => {
           backgroundPosition: 'center',
         }}
       >
-        {/* Header fixo */}
         <header className="w-full bg-gray-900 py-4 fixed top-0 left-0 z-10">
           <nav className="max-w-4xl mx-auto flex justify-center">
             <ul className="flex space-x-8">
@@ -69,13 +66,11 @@ const Home: NextPage = () => {
           </nav>
         </header>
 
-        {/* Conteúdo principal */}
-        <main className="flex flex-col items-center justify-center flex-grow pt-20">
-          <h1 className="text-6xl font-extrabold mb-16 text-center tracking-wide animate-glow">
+        <main className="flex flex-col items-center justify-center flex-grow pt-20 px-4 sm:px-6 md:px-8 lg:px-12">
+          <h1 className="text-5xl font-extrabold mb-16 text-center tracking-wide animate-glow">
             Bem-vindo ao meu portfólio
           </h1>
 
-          {/* Swiper com slides responsivos */}
           <Swiper
             modules={[Autoplay]}
             autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -99,11 +94,10 @@ const Home: NextPage = () => {
           </Swiper>
         </main>
 
-        {/* Rodapé */}
         <footer className="w-full bg-gray-900 py-6">
           <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-4">
             <p className="text-lg text-blue-400">Entre em contato:</p>
-            <div className="flex justify-center space-x-8">
+            <div className="flex flex-col sm:flex-row justify-center space-x-0 sm:space-x-8 space-y-4 sm:space-y-0">
               <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                 <a href="mailto:ruan.espindola17@gmail.com">ruan.espindola17@gmail.com</a>
               </p>

@@ -70,8 +70,8 @@ const Contact: NextPage = () => {
                 </header>
 
                 <main className="flex-grow flex flex-col items-center justify-center py-28 px-6 sm:px-8">
-                    <h1 className="text-5xl font-extrabold text-white mb-8 text-center">Contato</h1>
-                    <form onSubmit={handleSubmit} className="w-full max-w-lg bg-gray-800 p-10 rounded-lg shadow-xl">
+                    <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-8 text-center">Contato</h1>
+                    <form onSubmit={handleSubmit} className="w-full max-w-lg bg-gray-800 p-8 sm:p-10 rounded-lg shadow-xl">
                         <div className="mb-6">
                             <label className="block text-gray-300 text-lg font-semibold mb-2" htmlFor="name">Nome</label>
                             <input
@@ -113,21 +113,21 @@ const Contact: NextPage = () => {
                             {isSending ? 'Enviando...' : 'Enviar'}
                         </button>
                     </form>
-                    {responseMessage && <p className="mt-4 text-lg text-blue-400">{responseMessage}</p>}
+                    {responseMessage && <p className="mt-4 text-lg text-blue-400 text-center">{responseMessage}</p>}
                 </main>
 
                 <footer className="w-full bg-gray-900 py-6">
                     <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-4">
                         <p className="text-lg text-blue-400">Entre em contato:</p>
-                        <div className="flex justify-center space-x-8">
+                        <div className="flex justify-center space-x-4 flex-wrap">
                             <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
                                 <a href="mailto:ruan.espindola17@gmail.com">ruan.espindola17@gmail.com</a>
                             </p>
                             <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
-                                <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">https://github.com/Ruan-Init</a>
+                                <a href="https://github.com/Ruan-Init" target="_blank" rel="noopener noreferrer">GitHub</a>
                             </p>
                             <p className="text-sm text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out">
-                                <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">linkedin.com/in/Ruan-Carlos</a>
+                                <a href="https://www.linkedin.com/in/ruan-carlos-espindola-da-silva-626b86183/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                             </p>
                         </div>
                         <p className="text-xs text-gray-500 mt-4">&copy; {new Date().getFullYear()} Ruan Carlos. Todos os direitos reservados.</p>
