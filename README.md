@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Meu Portfólio
 
-First, run the development server:
+Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção de meus projetos desenvolvidos com as melhores práticas em desenvolvimento web, usando **Next.js**, **Tailwind CSS**, **Docker**, **Nginx**, e muito mais. Todos os projetos são construídos com foco em design responsivo e performance, garantindo uma excelente experiência de usuário em qualquer dispositivo, desde smartphones a desktops.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+- **Next.js**: Framework React para desenvolvimento full-stack
+- **Tailwind CSS**: Framework de CSS utilitário para estilização rápida e responsiva
+- **Docker**: Gerenciamento de contêineres para garantir ambientes consistentes
+- **Nginx**: Servidor web e proxy reverso
+- **Express.js**: Framework backend para APIs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
+- **Mobile First**: O design de todos os projetos prioriza a experiência em dispositivos móveis, adaptando-se perfeitamente a telas de tablets, notebooks e desktops.
+- **Responsividade**: Cada página é otimizada para oferecer uma interface amigável em todos os tamanhos de tela, desde iPhones, Androids, iPads até notebooks e desktops.
+- **Desempenho**: Foco em performance para garantir carregamento rápido e uma navegação fluida.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Projeto Destaque
+![Demonstração do Projeto](caminho/para/seu/gif.gif)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este é um exemplo de um dos projetos que desenvolvi, utilizando Next.js e Tailwind CSS, com um layout totalmente responsivo e otimizado para SEO.
 
-## Learn More
+Sinta-se à vontade para explorar e entre em contato caso tenha interesse em colaboração ou tenha alguma dúvida!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contato
+- [LinkedIn](link_do_linkedin)
+- [GitHub](link_do_github)
+- [Email](mailto:seuemail@example.com)
